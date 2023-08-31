@@ -12,3 +12,15 @@ class Solution {
         return y;
     }
 }
+
+// 다른 사람의 풀이가 더 깔끔한듯
+class Solution {
+    public int[] solution(String[] strlist) {
+        int[] answer = new int[strlist.length];
+
+        for(int i=0; i<strlist.length;i++){
+            answer[i]= strlist[i].length();
+        }
+        return answer;
+    }
+}
