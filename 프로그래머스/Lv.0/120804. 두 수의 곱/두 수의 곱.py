@@ -1,8 +1,8 @@
 def solution(num1, num2):
     answer = 0
     
-    -50000 <= num1 <= 50000
-    -50000 <= num2 <= 50000
+    0 <= num1 <= 100
+    0 <= num2 <= 100
     
     answer = num1 * num2
     
